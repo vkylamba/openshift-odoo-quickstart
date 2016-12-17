@@ -29,7 +29,7 @@ else
     wget https://github.com/OCA/OCB/tarball/10.0 -O /tmp/odoo.tar.gz
     tar -zxvf /tmp/odoo.tar.gz -C ~/app-root/data
     ln -s ~/${ODOO_GITUSER}-${ODOO_GITREPO}* ~/app-root/data/odoo-repo
-    rm ~/${ODOO_GITUSER}-${ODOO_GITREPO}*
-    rm -r ~/app-root/data/odoo-repo/doc
-    rm -r ~/app-root/data/odoo-repo/setup
+#     rm ~/${ODOO_GITUSER}-${ODOO_GITREPO}*
+#     rm -r ~/app-root/data/odoo-repo/doc
+#     rm -r ~/app-root/data/odoo-repo/setup
 fi
