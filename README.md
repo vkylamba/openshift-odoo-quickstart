@@ -16,7 +16,7 @@ Install the RHC client tools if you have not already done so:
 
 Create a python application
 
-    rhc app create myodoo python-2.7 posgresql-9.2
+    rhc app create myodoo python-2.7 postgresql-9.2
 
 Add this upstream repo
 
