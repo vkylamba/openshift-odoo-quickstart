@@ -26,7 +26,7 @@ if [ -d "odoo-repo" ]; then
     echo "Odoo already installed"
 else
     echo "Downloading Odoo."
-    wget https://github.com/OCA/OCB/tarball/9.0 -O /tmp/odoo.tar.gz
+    wget https://github.com/OCA/OCB/tarball/10.0 -O /tmp/odoo.tar.gz
     tar -zxvf /tmp/odoo.tar.gz -C ~/app-root/data
     ln -s ~/${ODOO_GITUSER}-${ODOO_GITREPO}* ~/app-root/data/odoo-repo
     rm ~/${ODOO_GITUSER}-${ODOO_GITREPO}*
